@@ -1,0 +1,378 @@
+ID,paper,location,species,temperature,d18_O_w,d18_O,d18_O_sd,d18_O_w_sd,class,functional_group,composition
+7,Grossman (1986),84G2-18,Hoeglundina elegans,20.1,0.9,1.16,0.11,0.14,foraminifera,benthos,Aragonite
+10,Grossman (1986),84G4-13,Hoeglundina elegans,18.5,0.9,0.94,0.11,0.14,foraminifera,benthos,Aragonite
+11,Grossman (1986),84G4-13,Hoeglundina elegans,18.5,0.9,0.66,0.11,0.14,foraminifera,benthos,Aragonite
+12,Grossman (1986),84G4-13,Uvigerina flintii,18.5,0.9,-0.02,0.11,0.14,foraminifera,benthos,Calcite
+14,Grossman (1986),83G3-17,Hoeglundina elegans,16.9,0.9,1.18,0.11,0.14,foraminifera,benthos,Aragonite
+15,Grossman (1986),83G3-17,Uvigerina flintii,16.9,0.9,1.02,0.11,0.14,foraminifera,benthos,Calcite
+16,Grossman (1986),83G3-17,Uvigerina flintii,16.9,0.9,1,0.11,0.14,foraminifera,benthos,Calcite
+21,Grossman (1986),84G4-14,Hoeglundina elegans,15.3,0.8,2.02,0.11,0.14,foraminifera,benthos,Aragonite
+22,Grossman (1986),84G4-14,Hoeglundina elegans,15.3,0.8,1.92,0.11,0.14,foraminifera,benthos,Aragonite
+23,Grossman (1986),84G4-14,Hoeglundina elegans,15.3,0.8,2.01,0.11,0.14,foraminifera,benthos,Aragonite
+24,Grossman (1986),84G4-14,Uvigerina flintii,15.3,0.8,1.12,0.11,0.14,foraminifera,benthos,Calcite
+25,Grossman (1986),84G4-14,Uvigerina flintii,15.3,0.8,0.97,0.11,0.14,foraminifera,benthos,Calcite
+26,Grossman (1986),84G3-3,Hoeglundina elegans,15,0.5,2.18,0.11,0.14,foraminifera,benthos,Aragonite
+27,Grossman (1986),84G3-3,Uvigerina peregrina,15,0.5,1.87,0.11,0.14,foraminifera,benthos,Calcite
+29,Grossman (1986),84G2-16,Hoeglundina elegans,13,0.5,1.19,0.11,0.14,foraminifera,benthos,Aragonite
+30,Grossman (1986),84G2-16,Hoeglundina elegans,13,0.5,1.55,0.11,0.14,foraminifera,benthos,Aragonite
+31,Grossman (1986),84G2-16,Uvigerina flintii,13,0.5,1.43,0.11,0.14,foraminifera,benthos,Calcite
+33,Grossman (1986),G85-4-1,Hoeglundina elegans,12,0.3,2.12,0.11,0.14,foraminifera,benthos,Aragonite
+34,Grossman (1986),G85-4-1,Uvigerina peregrina,12,0.3,1.05,0.11,0.14,foraminifera,benthos,Calcite
+37,Grossman (1986),29587,Hoeglundina elegans,10.5,-0.3,2.1,0.11,0.14,foraminifera,benthos,Aragonite
+41,Grossman (1986),26907,Hoeglundina elegans,9.5,-0.3,2.37,0.11,0.14,foraminifera,benthos,Aragonite
+42,Grossman (1986),26907,Hoeglundina elegans,9.5,-0.3,2.4,0.11,0.14,foraminifera,benthos,Aragonite
+43,Grossman (1986),26907,Hoeglundina elegans,9.5,-0.3,2.34,0.11,0.14,foraminifera,benthos,Aragonite
+45,Grossman (1986),27646,Hoeglundina elegans,9.1,-0.3,2.47,0.11,0.14,foraminifera,benthos,Aragonite
+47,Grossman (1986),27645,Hoeglundina elegans,8.8,-0.3,2.69,0.11,0.14,foraminifera,benthos,Aragonite
+49,Grossman (1986),26924,Hoeglundina elegans,8.7,-0.3,2.35,0.11,0.14,foraminifera,benthos,Aragonite
+50,Grossman (1986),26924,Hoeglundina elegans,8.7,-0.3,2.35,0.11,0.14,foraminifera,benthos,Aragonite
+53,Grossman (1986),26898,Hoeglundina elegans,8.4,-0.2,2.69,0.11,0.14,foraminifera,benthos,Aragonite
+54,Grossman (1986),26898,Hoeglundina elegans,8.4,-0.2,2.65,0.11,0.14,foraminifera,benthos,Aragonite
+55,Grossman (1986),83G3-4,Hoeglundina elegans,8.4,0.1,2.65,0.11,0.14,foraminifera,benthos,Aragonite
+56,Grossman (1986),83G3-4,Uvigerina peregrina,8.4,0.1,2.3,0.11,0.14,foraminifera,benthos,Calcite
+57,Grossman (1986),28391,Hoeglundina elegans,7.8,-0.3,2.4,0.11,0.14,foraminifera,benthos,Aragonite
+58,Grossman (1986),28391,Hoeglundina elegans,7.8,-0.3,2.64,0.11,0.14,foraminifera,benthos,Aragonite
+60,Grossman (1986),29596,Uvigerina curticosta,6.8,-0.3,2.3,0.11,0.14,foraminifera,benthos,Calcite
+61,Grossman (1986),29596,Uvigerina curticosta,6.8,-0.3,2.4,0.11,0.14,foraminifera,benthos,Calcite
+62,Grossman (1986),82729,Uvigerina curticosta,6.4,-0.3,2.47,0.11,0.14,foraminifera,benthos,Calcite
+64,Grossman (1986),83G3-12,Hoeglundina elegans,6.1,0,3.26,0.11,0.14,foraminifera,benthos,Aragonite
+65,Grossman (1986),83G3-12,Hoeglundina elegans,6.1,0,2.89,0.11,0.14,foraminifera,benthos,Aragonite
+66,Grossman (1986),83G3-12,Uvigerina peregrina,6.1,0,2.4,0.11,0.14,foraminifera,benthos,Calcite
+67,Grossman (1986),83G3-12,Uvigerina peregrina,6.1,0,2.75,0.11,0.14,foraminifera,benthos,Calcite
+68,Grossman (1986),83G3-6,Hoeglundina elegans,5.5,0,3.47,0.11,0.14,foraminifera,benthos,Aragonite
+69,Grossman (1986),83G3-6,Hoeglundina elegans,5.5,0,3.45,0.11,0.14,foraminifera,benthos,Aragonite
+70,Grossman (1986),83G3-6,Hoeglundina elegans,5.5,0,3.39,0.11,0.14,foraminifera,benthos,Aragonite
+71,Grossman (1986),83G3-6,Uvigerina peregrina,5.5,0,2.9,0.11,0.14,foraminifera,benthos,Calcite
+73,Grossman (1986),83G3-11A,Hoeglundina elegans,4.5,0.1,3.79,0.11,0.14,foraminifera,benthos,Aragonite
+74,Grossman (1986),83G3-11A,Hoeglundina elegans,4.5,0.1,3.67,0.11,0.14,foraminifera,benthos,Aragonite
+75,Grossman (1986),83G3-11A,Hoeglundina elegans,4.5,0.1,3.75,0.11,0.14,foraminifera,benthos,Aragonite
+76,Grossman (1986),81429-32,Hoeglundina elegans,4.3,-0.2,3.6,0.11,0.14,foraminifera,benthos,Aragonite
+77,Grossman (1986),81429-32,Hoeglundina elegans,4.3,-0.2,3.54,0.11,0.14,foraminifera,benthos,Aragonite
+78,Grossman (1986),81429-32,Hoeglundina elegans,4.3,-0.2,3.92,0.11,0.14,foraminifera,benthos,Aragonite
+79,Grossman (1986),81429-32,Hoeglundina elegans,4.3,-0.2,3.53,0.11,0.14,foraminifera,benthos,Aragonite
+80,Grossman (1986),81429-32,Uvigerina curticosta,4.3,-0.2,2.97,0.11,0.14,foraminifera,benthos,Calcite
+81,Grossman (1986),81429-32,Uvigerina curticosta,4.3,-0.2,2.86,0.11,0.14,foraminifera,benthos,Calcite
+82,Grossman (1986),83G3-8,Hoeglundina elegans,4.1,0.1,3.6,0.11,0.14,foraminifera,benthos,Aragonite
+83,Grossman (1986),26972,Hoeglundina elegans,4,-0.2,3.63,0.11,0.14,foraminifera,benthos,Aragonite
+84,Grossman (1986),26972,Hoeglundina elegans,4,-0.2,3.39,0.11,0.14,foraminifera,benthos,Aragonite
+85,Grossman (1986),29597,Hoeglundina elegans,4,-0.2,3.63,0.11,0.14,foraminifera,benthos,Aragonite
+86,Grossman (1986),29599,Hoeglundina elegans,4,-0.2,3.52,0.11,0.14,foraminifera,benthos,Aragonite
+87,Grossman (1986),26971,Hoeglundina elegans,3.9,-0.2,4.12,0.11,0.14,foraminifera,benthos,Aragonite
+88,Grossman (1986),26971,Hoeglundina elegans,3.9,-0.2,3.59,0.11,0.14,foraminifera,benthos,Aragonite
+89,Grossman (1986),26971,Hoeglundina elegans,3.9,-0.2,3.65,0.11,0.14,foraminifera,benthos,Aragonite
+90,Grossman (1986),26971,Hoeglundina elegans,3.9,-0.2,3.75,0.11,0.14,foraminifera,benthos,Aragonite
+91,Grossman (1986),26971,Uvigerina curticosta,3.9,-0.2,3.02,0.11,0.14,foraminifera,benthos,Calcite
+92,Grossman (1986),26971,Uvigerina curticosta,3.9,-0.2,2.96,0.11,0.14,foraminifera,benthos,Calcite
+93,Grossman (1986),26971,Uvigerina curticosta,3.9,-0.2,2.87,0.11,0.14,foraminifera,benthos,Calcite
+94,Grossman (1986),26971,Uvigerina peregrina,3.9,-0.2,2.97,0.11,0.14,foraminifera,benthos,Calcite
+95,Grossman (1986),26973,Hoeglundina elegans,3.9,-0.2,3.38,0.11,0.14,foraminifera,benthos,Aragonite
+96,Grossman (1986),26973,Hoeglundina elegans,3.9,-0.2,3.23,0.11,0.14,foraminifera,benthos,Aragonite
+97,Grossman (1986),26973,Hoeglundina elegans,3.9,-0.2,3.62,0.11,0.14,foraminifera,benthos,Aragonite
+98,Grossman (1986),26973,Hoeglundina elegans,3.9,-0.2,3.6,0.11,0.14,foraminifera,benthos,Aragonite
+99,Grossman (1986),26973,Hoeglundina elegans,3.9,-0.2,3.49,0.11,0.14,foraminifera,benthos,Aragonite
+100,Grossman (1986),29619,Hoeglundina elegans,2.7,-0.3,3.85,0.11,0.14,foraminifera,benthos,Aragonite
+101,Grossman (1986),29619,Uvigerina peregrina,2.7,-0.3,3.24,0.11,0.14,foraminifera,benthos,Calcite
+102,Grossman (1986),29620,Hoeglundina elegans,2.6,-0.3,3.93,0.11,0.14,foraminifera,benthos,Aragonite
+103,Grossman (1986),29620,Uvigerina curticosta,2.6,-0.3,3.01,0.11,0.14,foraminifera,benthos,Calcite
+1,Herguera (1992),ERDC 92Bx,Cibicidoides wuellerstorfi,2.7113,-0.0161,2.55,0.07,0.14,foraminifera,benthos,Calcite
+2,Herguera (1992),ERDC 92Bx,Cibicidoides wuellerstorfi,2.7113,-0.0161,2.35,0.07,0.14,foraminifera,benthos,Calcite
+3,Herguera (1992),ERDC 92Bx,Cibicidoides wuellerstorfi,2.7113,-0.0161,2.28,0.07,0.14,foraminifera,benthos,Calcite
+4,Herguera (1992),ERDC 92Bx,Cibicidoides wuellerstorfi,2.7113,-0.0161,2.32,0.07,0.14,foraminifera,benthos,Calcite
+5,Herguera (1992),ERDC 92Bx,Cibicidoides wuellerstorfi,2.7113,-0.0161,2.26,0.07,0.14,foraminifera,benthos,Calcite
+6,Herguera (1992),ERDC 92Bx,Cibicidoides wuellerstorfi,2.7113,-0.0161,2.58,0.07,0.14,foraminifera,benthos,Calcite
+7,Herguera (1992),ERDC 92Bx,Cibicidoides wuellerstorfi,2.7113,-0.0161,2.49,0.07,0.14,foraminifera,benthos,Calcite
+8,Herguera (1992),ERDC 88Bx,Cibicidoides wuellerstorfi,2.3,-0.003,2.37,0.07,0.14,foraminifera,benthos,Calcite
+9,Herguera (1992),ERDC 88Bx,Cibicidoides wuellerstorfi,2.3,-0.003,2.49,0.07,0.14,foraminifera,benthos,Calcite
+10,Herguera (1992),ERDC 88Bx,Cibicidoides wuellerstorfi,2.3,-0.003,2.42,0.07,0.14,foraminifera,benthos,Calcite
+11,Herguera (1992),ERDC 88Bx,Cibicidoides wuellerstorfi,2.3,-0.003,2.36,0.07,0.14,foraminifera,benthos,Calcite
+12,Herguera (1992),ERDC 88Bx,Cibicidoides wuellerstorfi,2.3,-0.003,2.65,0.07,0.14,foraminifera,benthos,Calcite
+13,Herguera (1992),ERDC113P,Cibicidoides wuellerstorfi,2.0998,0.0064,2.67,0.07,0.14,foraminifera,benthos,Calcite
+14,Herguera (1992),ERDC113P,Cibicidoides wuellerstorfi,2.0998,0.0064,2.57,0.07,0.14,foraminifera,benthos,Calcite
+15,Herguera (1992),ERDC113P,Cibicidoides wuellerstorfi,2.0998,0.0064,2.59,0.07,0.14,foraminifera,benthos,Calcite
+16,Herguera (1992),ERDC112Bx,Cibicidoides wuellerstorfi,2.0913,0.0068,2.55,0.07,0.14,foraminifera,benthos,Calcite
+17,Herguera (1992),ERDC112Bx,Cibicidoides wuellerstorfi,2.0913,0.0068,2.51,0.07,0.14,foraminifera,benthos,Calcite
+18,Herguera (1992),ERDC112Bx,Cibicidoides wuellerstorfi,2.0913,0.0068,2.65,0.07,0.14,foraminifera,benthos,Calcite
+19,Herguera (1992),ERDC112Bx,Cibicidoides wuellerstorfi,2.0913,0.0068,2.83,0.07,0.14,foraminifera,benthos,Calcite
+20,Herguera (1992),ERDC112Bx,Cibicidoides wuellerstorfi,2.0913,0.0068,2.69,0.07,0.14,foraminifera,benthos,Calcite
+21,Herguera (1992),ERDC120Bx,Cibicidoides wuellerstorfi,2.031,0.01,2.48,0.07,0.14,foraminifera,benthos,Calcite
+22,Herguera (1992),ERDC120Bx,Cibicidoides wuellerstorfi,2.031,0.01,2.71,0.07,0.14,foraminifera,benthos,Calcite
+23,Herguera (1992),ERDC120Bx,Cibicidoides wuellerstorfi,2.031,0.01,2.55,0.07,0.14,foraminifera,benthos,Calcite
+24,Herguera (1992),ERDC 83Bx,Cibicidoides wuellerstorfi,1.9773,0.01,2.47,0.07,0.14,foraminifera,benthos,Calcite
+25,Herguera (1992),ERDC 83Bx,Cibicidoides wuellerstorfi,1.9773,0.01,2.66,0.07,0.14,foraminifera,benthos,Calcite
+26,Herguera (1992),ERDC 83Bx,Cibicidoides wuellerstorfi,1.9773,0.01,2.78,0.07,0.14,foraminifera,benthos,Calcite
+27,Herguera (1992),ERDC 83Bx,Cibicidoides wuellerstorfi,1.9773,0.01,2.72,0.07,0.14,foraminifera,benthos,Calcite
+28,Herguera (1992),ERDC 83Bx,Cibicidoides wuellerstorfi,1.9773,0.01,2.95,0.07,0.14,foraminifera,benthos,Calcite
+29,Herguera (1992),ERDC 83Bx,Cibicidoides wuellerstorfi,1.9773,0.01,2.81,0.07,0.14,foraminifera,benthos,Calcite
+30,Herguera (1992),ERDC 83Bx,Cibicidoides wuellerstorfi,1.9773,0.01,2.68,0.07,0.14,foraminifera,benthos,Calcite
+31,Herguera (1992),ERDC 79Bx,Cibicidoides wuellerstorfi,1.793,0,2.57,0.07,0.14,foraminifera,benthos,Calcite
+32,Herguera (1992),ERDC 79Bx,Cibicidoides wuellerstorfi,1.793,0,2.59,0.07,0.14,foraminifera,benthos,Calcite
+33,Herguera (1992),ERDC123Bx,Cibicidoides wuellerstorfi,1.7385,-0.0078,2.78,0.07,0.14,foraminifera,benthos,Calcite
+34,Herguera (1992),ERDC123Bx,Cibicidoides wuellerstorfi,1.7385,-0.0078,2.74,0.07,0.14,foraminifera,benthos,Calcite
+35,Herguera (1992),ERDC123Bx,Cibicidoides wuellerstorfi,1.7385,-0.0078,2.67,0.07,0.14,foraminifera,benthos,Calcite
+36,Herguera (1992),ERDC123Bx,Cibicidoides wuellerstorfi,1.7385,-0.0078,2.69,0.07,0.14,foraminifera,benthos,Calcite
+37,Herguera (1992),ERDC125Bx,Cibicidoides wuellerstorfi,1.5804,-0.0223,2.73,0.07,0.14,foraminifera,benthos,Calcite
+38,Herguera (1992),ERDC125Bx,Cibicidoides wuellerstorfi,1.5804,-0.0223,2.63,0.07,0.14,foraminifera,benthos,Calcite
+39,Herguera (1992),ERDC125Bx,Cibicidoides wuellerstorfi,1.5804,-0.0223,2.71,0.07,0.14,foraminifera,benthos,Calcite
+40,Herguera (1992),ERDC125Bx,Cibicidoides wuellerstorfi,1.5804,-0.0223,2.63,0.07,0.14,foraminifera,benthos,Calcite
+41,Herguera (1992),ERDC125Bx,Cibicidoides wuellerstorfi,1.5804,-0.0223,2.59,0.07,0.14,foraminifera,benthos,Calcite
+42,Herguera (1992),ERDC108Bx,Cibicidoides wuellerstorfi,1.5753,-0.0226,2.69,0.07,0.14,foraminifera,benthos,Calcite
+43,Herguera (1992),ERDC135Bx,Cibicidoides wuellerstorfi,1.533,-0.025,2.78,0.07,0.14,foraminifera,benthos,Calcite
+44,Herguera (1992),ERDC135Bx,Cibicidoides wuellerstorfi,1.533,-0.025,2.83,0.07,0.14,foraminifera,benthos,Calcite
+45,Herguera (1992),ERDC135Bx,Cibicidoides wuellerstorfi,1.533,-0.025,2.72,0.07,0.14,foraminifera,benthos,Calcite
+46,Herguera (1992),ERDC 77Bx,Cibicidoides wuellerstorfi,1.5068,-0.0267,2.62,0.07,0.14,foraminifera,benthos,Calcite
+47,Herguera (1992),ERDC 77Bx,Cibicidoides wuellerstorfi,1.5068,-0.0267,2.72,0.07,0.14,foraminifera,benthos,Calcite
+48,Herguera (1992),ERDC128Bx,Cibicidoides wuellerstorfi,1.456,-0.03,2.63,0.07,0.14,foraminifera,benthos,Calcite
+49,Herguera (1992),ERDC128Bx,Cibicidoides wuellerstorfi,1.456,-0.03,2.69,0.07,0.14,foraminifera,benthos,Calcite
+50,Herguera (1992),ERDC128Bx,Cibicidoides wuellerstorfi,1.456,-0.03,2.82,0.07,0.14,foraminifera,benthos,Calcite
+51,Herguera (1992),ERDC128Bx,Cibicidoides wuellerstorfi,1.456,-0.03,2.99,0.07,0.14,foraminifera,benthos,Calcite
+52,Herguera (1992),ERDC128Bx,Cibicidoides wuellerstorfi,1.456,-0.03,2.79,0.07,0.14,foraminifera,benthos,Calcite
+53,Herguera (1992),ERDC128Bx,Cibicidoides wuellerstorfi,1.456,-0.03,2.8,0.07,0.14,foraminifera,benthos,Calcite
+54,Herguera (1992),ERDC136Bx,Cibicidoides wuellerstorfi,1.4278,-0.0322,2.77,0.07,0.14,foraminifera,benthos,Calcite
+55,Herguera (1992),ERDC136Bx,Cibicidoides wuellerstorfi,1.4278,-0.0322,2.78,0.07,0.14,foraminifera,benthos,Calcite
+56,Herguera (1992),ERDC136Bx,Cibicidoides wuellerstorfi,1.4278,-0.0322,3.09,0.07,0.14,foraminifera,benthos,Calcite
+57,Herguera (1992),ERDC139Bx,Cibicidoides wuellerstorfi,1.3549,-0.0374,2.84,0.07,0.14,foraminifera,benthos,Calcite
+58,Herguera (1992),ERDC139Bx,Cibicidoides wuellerstorfi,1.3549,-0.0374,3.09,0.07,0.14,foraminifera,benthos,Calcite
+59,Herguera (1992),ERDC129Bx,Cibicidoides wuellerstorfi,1.3414,-0.0384,2.9,0.07,0.14,foraminifera,benthos,Calcite
+60,Herguera (1992),ERDC129Bx,Cibicidoides wuellerstorfi,1.3414,-0.0384,3.04,0.07,0.14,foraminifera,benthos,Calcite
+61,Herguera (1992),ERDC129Bx,Cibicidoides wuellerstorfi,1.3414,-0.0384,2.73,0.07,0.14,foraminifera,benthos,Calcite
+65,Herguera (1992),ERDC131Bx,Cibicidoides wuellerstorfi,1.28,-0.042,2.87,0.07,0.14,foraminifera,benthos,Calcite
+66,Herguera (1992),ERDC131Bx,Cibicidoides wuellerstorfi,1.28,-0.042,3.06,0.07,0.14,foraminifera,benthos,Calcite
+1,Marchitto et al (2014),5,Cibicides pachyderma,8.5,0.31,1.68,0.08,0.07,foraminifera,benthos,Calcite
+2,Marchitto et al (2014),5,Planulina ariminensis,8.5,0.31,1.68,0.08,0.07,foraminifera,benthos,Calcite
+4,Marchitto et al (2014),5,Uvigerina peregrina,8.5,0.31,2.18,0.08,0.07,foraminifera,benthos,Calcite
+5,Marchitto et al (2014),5,Hoeglundina elegans,8.5,0.31,2.71,0.08,0.07,foraminifera,benthos,Aragonite
+6,Marchitto et al (2014),11,Cibicides pachyderma,5.8,0.26,2.27,0.08,0.07,foraminifera,benthos,Calcite
+9,Marchitto et al (2014),11,Uvigerina peregrina,5.8,0.26,2.49,0.08,0.07,foraminifera,benthos,Calcite
+10,Marchitto et al (2014),11,Hoeglundina elegans,5.8,0.26,3.11,0.08,0.07,foraminifera,benthos,Aragonite
+11,Marchitto et al (2014),13,Cibicides pachyderma,9.7,0.39,1.65,0.08,0.07,foraminifera,benthos,Calcite
+12,Marchitto et al (2014),13,Planulina ariminensis,9.7,0.39,1.41,0.08,0.07,foraminifera,benthos,Calcite
+14,Marchitto et al (2014),13,Uvigerina peregrina,9.7,0.39,1.87,0.08,0.07,foraminifera,benthos,Calcite
+15,Marchitto et al (2014),13,Hoeglundina elegans,9.7,0.39,2.63,0.08,0.07,foraminifera,benthos,Aragonite
+16,Marchitto et al (2014),16,Cibicides pachyderma,10.8,0.47,1.17,0.08,0.07,foraminifera,benthos,Calcite
+21,Marchitto et al (2014),19,Cibicides pachyderma,12.7,0.62,1.11,0.08,0.07,foraminifera,benthos,Calcite
+23,Marchitto et al (2014),19,Planulina foveolata,12.7,0.62,0.57,0.08,0.07,foraminifera,benthos,Calcite
+25,Marchitto et al (2014),19,Hoeglundina elegans,12.7,0.62,2.03,0.08,0.07,foraminifera,benthos,Aragonite
+26,Marchitto et al (2014),22,Cibicides pachyderma,9,0.35,1.58,0.08,0.07,foraminifera,benthos,Calcite
+29,Marchitto et al (2014),22,Uvigerina peregrina,9,0.35,2.03,0.08,0.07,foraminifera,benthos,Calcite
+30,Marchitto et al (2014),22,Hoeglundina elegans,9,0.35,2.63,0.08,0.07,foraminifera,benthos,Aragonite
+34,Marchitto et al (2014),24,Uvigerina peregrina,7.8,0.28,2.24,0.08,0.07,foraminifera,benthos,Calcite
+35,Marchitto et al (2014),24,Hoeglundina elegans,7.8,0.28,2.89,0.08,0.07,foraminifera,benthos,Aragonite
+36,Marchitto et al (2014),28,Cibicides pachyderma,6.3,0.26,2.05,0.08,0.07,foraminifera,benthos,Calcite
+39,Marchitto et al (2014),28,Uvigerina peregrina,6.3,0.26,2.43,0.08,0.07,foraminifera,benthos,Calcite
+40,Marchitto et al (2014),28,Hoeglundina elegans,6.3,0.26,3.14,0.08,0.07,foraminifera,benthos,Aragonite
+41,Marchitto et al (2014),50,Cibicides pachyderma,12.1,0.57,1.22,0.08,0.07,foraminifera,benthos,Calcite
+42,Marchitto et al (2014),50,Planulina ariminensis,12.1,0.57,0.94,0.08,0.07,foraminifera,benthos,Calcite
+43,Marchitto et al (2014),50,Planulina foveolata,12.1,0.57,0.17,0.08,0.07,foraminifera,benthos,Calcite
+45,Marchitto et al (2014),50,Hoeglundina elegans,12.1,0.57,2.12,0.08,0.07,foraminifera,benthos,Aragonite
+46,Marchitto et al (2014),53,Cibicides pachyderma,10,0.41,1.44,0.08,0.07,foraminifera,benthos,Calcite
+47,Marchitto et al (2014),53,Planulina ariminensis,10,0.41,1.49,0.08,0.07,foraminifera,benthos,Calcite
+49,Marchitto et al (2014),53,Uvigerina peregrina,10,0.41,1.96,0.08,0.07,foraminifera,benthos,Calcite
+50,Marchitto et al (2014),53,Hoeglundina elegans,10,0.41,2.39,0.08,0.07,foraminifera,benthos,Aragonite
+51,Marchitto et al (2014),55,Cibicides pachyderma,9.1,0.36,1.76,0.08,0.07,foraminifera,benthos,Calcite
+52,Marchitto et al (2014),55,Planulina ariminensis,9.1,0.36,1.63,0.08,0.07,foraminifera,benthos,Calcite
+54,Marchitto et al (2014),55,Uvigerina peregrina,9.1,0.36,1.91,0.08,0.07,foraminifera,benthos,Calcite
+55,Marchitto et al (2014),55,Hoeglundina elegans,9.1,0.36,2.39,0.08,0.07,foraminifera,benthos,Aragonite
+56,Marchitto et al (2014),62,Cibicides pachyderma,7,0.26,1.73,0.08,0.07,foraminifera,benthos,Calcite
+57,Marchitto et al (2014),62,Planulina ariminensis,7,0.26,1.7,0.08,0.07,foraminifera,benthos,Calcite
+59,Marchitto et al (2014),62,Uvigerina peregrina,7,0.26,2.39,0.08,0.07,foraminifera,benthos,Calcite
+60,Marchitto et al (2014),62,Hoeglundina elegans,7,0.26,2.94,0.08,0.07,foraminifera,benthos,Aragonite
+65,Marchitto et al (2014),66,Hoeglundina elegans,19,1.16,1.15,0.08,0.07,foraminifera,benthos,Aragonite
+66,Marchitto et al (2014),68,Cibicides pachyderma,16.6,0.96,0.41,0.08,0.07,foraminifera,benthos,Calcite
+68,Marchitto et al (2014),68,Planulina foveolata,16.6,0.96,0.5,0.08,0.07,foraminifera,benthos,Calcite
+70,Marchitto et al (2014),68,Hoeglundina elegans,16.6,0.96,1.53,0.08,0.07,foraminifera,benthos,Aragonite
+71,Marchitto et al (2014),72,Cibicides pachyderma,10.8,0.47,1.12,0.08,0.07,foraminifera,benthos,Calcite
+73,Marchitto et al (2014),72,Planulina foveolata,10.8,0.47,1.14,0.08,0.07,foraminifera,benthos,Calcite
+74,Marchitto et al (2014),72,Uvigerina peregrina,10.8,0.47,1.56,0.08,0.07,foraminifera,benthos,Calcite
+75,Marchitto et al (2014),72,Hoeglundina elegans,10.8,0.47,2.05,0.08,0.07,foraminifera,benthos,Aragonite
+76,Marchitto et al (2014),76,Cibicides pachyderma,11,0.56,1.21,0.08,0.07,foraminifera,benthos,Calcite
+77,Marchitto et al (2014),76,Planulina ariminensis,11,0.56,1.16,0.08,0.07,foraminifera,benthos,Calcite
+78,Marchitto et al (2014),76,Planulina foveolata,11,0.56,1.14,0.08,0.07,foraminifera,benthos,Calcite
+79,Marchitto et al (2014),76,Uvigerina peregrina,11,0.56,1.66,0.08,0.07,foraminifera,benthos,Calcite
+81,Marchitto et al (2014),79,Cibicides pachyderma,12.1,0.57,0.98,0.08,0.07,foraminifera,benthos,Calcite
+83,Marchitto et al (2014),79,Planulina foveolata,12.1,0.57,1,0.08,0.07,foraminifera,benthos,Calcite
+84,Marchitto et al (2014),79,Uvigerina peregrina,12.1,0.57,1.38,0.08,0.07,foraminifera,benthos,Calcite
+85,Marchitto et al (2014),79,Hoeglundina elegans,12.1,0.57,1.86,0.08,0.07,foraminifera,benthos,Aragonite
+86,Marchitto et al (2014),89,Cibicides pachyderma,17.8,1.08,0.37,0.08,0.07,foraminifera,benthos,Calcite
+88,Marchitto et al (2014),89,Planulina foveolata,17.8,1.08,0.37,0.08,0.07,foraminifera,benthos,Calcite
+94,Marchitto et al (2014),92,Uvigerina peregrina,15.7,0.89,1.09,0.08,0.07,foraminifera,benthos,Calcite
+95,Marchitto et al (2014),92,Hoeglundina elegans,15.7,0.89,1.72,0.08,0.07,foraminifera,benthos,Aragonite
+96,Marchitto et al (2014),94,Cibicides pachyderma,18.5,1.17,0.18,0.08,0.07,foraminifera,benthos,Calcite
+100,Marchitto et al (2014),94,Hoeglundina elegans,18.5,1.17,1.06,0.08,0.07,foraminifera,benthos,Aragonite
+101,Marchitto et al (2014),97,Cibicides pachyderma,18.6,1.13,0.06,0.08,0.07,foraminifera,benthos,Calcite
+105,Marchitto et al (2014),97,Hoeglundina elegans,18.6,1.13,1.24,0.08,0.07,foraminifera,benthos,Aragonite
+106,Marchitto et al (2014),99,Cibicides pachyderma,8.5,0.34,1.84,0.08,0.07,foraminifera,benthos,Calcite
+111,Marchitto et al (2014),103,Cibicides pachyderma,9.3,0.38,1.6,0.08,0.07,foraminifera,benthos,Calcite
+112,Marchitto et al (2014),103,Planulina ariminensis,9.3,0.38,1.65,0.08,0.07,foraminifera,benthos,Calcite
+114,Marchitto et al (2014),103,Uvigerina peregrina,9.3,0.38,1.81,0.08,0.07,foraminifera,benthos,Calcite
+116,Marchitto et al (2014),110,Cibicides pachyderma,17.3,1.03,0.43,0.08,0.07,foraminifera,benthos,Calcite
+118,Marchitto et al (2014),110,Planulina foveolata,17.3,1.03,0.32,0.08,0.07,foraminifera,benthos,Calcite
+119,Marchitto et al (2014),110,Uvigerina peregrina,17.3,1.03,0.96,0.08,0.07,foraminifera,benthos,Calcite
+120,Marchitto et al (2014),110,Hoeglundina elegans,17.3,1.03,1.35,0.08,0.07,foraminifera,benthos,Aragonite
+121,Marchitto et al (2014),112,Cibicides pachyderma,17.1,1.01,0.42,0.08,0.07,foraminifera,benthos,Calcite
+125,Marchitto et al (2014),112,Hoeglundina elegans,17.1,1.01,1.37,0.08,0.07,foraminifera,benthos,Aragonite
+126,Marchitto et al (2014),118,Cibicides pachyderma,14.5,0.85,0.88,0.08,0.07,foraminifera,benthos,Calcite
+128,Marchitto et al (2014),118,Planulina foveolata,14.5,0.85,0.8,0.08,0.07,foraminifera,benthos,Calcite
+129,Marchitto et al (2014),118,Uvigerina peregrina,14.5,0.85,1.25,0.08,0.07,foraminifera,benthos,Calcite
+130,Marchitto et al (2014),118,Hoeglundina elegans,14.5,0.85,2,0.08,0.07,foraminifera,benthos,Aragonite
+131,Marchitto et al (2014),121,Cibicides pachyderma,11.9,0.56,1.16,0.08,0.07,foraminifera,benthos,Calcite
+134,Marchitto et al (2014),121,Uvigerina peregrina,11.9,0.56,1.52,0.08,0.07,foraminifera,benthos,Calcite
+135,Marchitto et al (2014),121,Hoeglundina elegans,11.9,0.56,2.05,0.08,0.07,foraminifera,benthos,Aragonite
+136,Marchitto et al (2014),123,Cibicides pachyderma,10.6,0.46,1.12,0.08,0.07,foraminifera,benthos,Calcite
+141,Marchitto et al (2014),125,Cibicides pachyderma,9.4,0.37,1.53,0.08,0.07,foraminifera,benthos,Calcite
+142,Marchitto et al (2014),125,Planulina ariminensis,9.4,0.37,1.57,0.08,0.07,foraminifera,benthos,Calcite
+146,Marchitto et al (2014),134,Cibicides pachyderma,17.2,1.02,0.66,0.08,0.07,foraminifera,benthos,Calcite
+148,Marchitto et al (2014),134,Planulina foveolata,17.2,1.02,0.27,0.08,0.07,foraminifera,benthos,Calcite
+149,Marchitto et al (2014),134,Uvigerina peregrina,17.2,1.02,1.08,0.08,0.07,foraminifera,benthos,Calcite
+150,Marchitto et al (2014),134,Hoeglundina elegans,17.2,1.02,1.52,0.08,0.07,foraminifera,benthos,Aragonite
+151,Marchitto et al (2014),138,Cibicides pachyderma,16.8,0.98,0.74,0.08,0.07,foraminifera,benthos,Calcite
+153,Marchitto et al (2014),138,Planulina foveolata,16.8,0.98,0.74,0.08,0.07,foraminifera,benthos,Calcite
+154,Marchitto et al (2014),138,Uvigerina peregrina,16.8,0.98,1.16,0.08,0.07,foraminifera,benthos,Calcite
+155,Marchitto et al (2014),138,Hoeglundina elegans,16.8,0.98,1.77,0.08,0.07,foraminifera,benthos,Aragonite
+1,Marchitto et al (2014),P192AR-B6,Cibicidoides wuellerstorfi,-0.3,0.32,3.76,0.08,0.07,foraminifera,benthos,Calcite
+2,Marchitto et al (2014),P192AR-B7,Cibicidoides wuellerstorfi,-0.31,0.32,3.8,0.08,0.07,foraminifera,benthos,Calcite
+3,Marchitto et al (2014),P192AR-B8,Cibicidoides wuellerstorfi,-0.31,0.32,3.9,0.08,0.07,foraminifera,benthos,Calcite
+4,Marchitto et al (2014),P192AR-B9,Cibicidoides wuellerstorfi,-0.31,0.32,3.66,0.08,0.07,foraminifera,benthos,Calcite
+5,Marchitto et al (2014),P192AR-B10,Cibicidoides wuellerstorfi,-0.31,0.32,3.72,0.08,0.07,foraminifera,benthos,Calcite
+6,Marchitto et al (2014),P192AR-B15,Cibicidoides wuellerstorfi,-0.36,0.34,3.63,0.08,0.07,foraminifera,benthos,Calcite
+7,Marchitto et al (2014),P192AR-B16,Cibicidoides wuellerstorfi,-0.23,0.31,3.85,0.08,0.07,foraminifera,benthos,Calcite
+8,Marchitto et al (2014),P193AR-B2,Cibicidoides wuellerstorfi,-0.31,0.32,3.74,0.08,0.07,foraminifera,benthos,Calcite
+9,Marchitto et al (2014),P193AR-B3,Cibicidoides wuellerstorfi,-0.31,0.32,3.66,0.08,0.07,foraminifera,benthos,Calcite
+10,Marchitto et al (2014),P193AR-B4,Cibicidoides wuellerstorfi,-0.31,0.32,3.7,0.08,0.07,foraminifera,benthos,Calcite
+11,Marchitto et al (2014),P193AR-B5,Cibicidoides wuellerstorfi,-0.31,0.32,3.92,0.08,0.07,foraminifera,benthos,Calcite
+12,Marchitto et al (2014),P193AR-B7,Cibicidoides wuellerstorfi,-0.31,0.32,3.86,0.08,0.07,foraminifera,benthos,Calcite
+13,Marchitto et al (2014),P193AR-B8,Cibicidoides wuellerstorfi,-0.31,0.32,3.68,0.08,0.07,foraminifera,benthos,Calcite
+14,Marchitto et al (2014),P193AR-B10,Cibicidoides wuellerstorfi,-0.31,0.32,3.8,0.08,0.07,foraminifera,benthos,Calcite
+15,Marchitto et al (2014),P193AR-B11,Cibicidoides wuellerstorfi,-0.31,0.32,3.69,0.08,0.07,foraminifera,benthos,Calcite
+16,Marchitto et al (2014),P193AR-B18,Cibicidoides wuellerstorfi,-0.35,0.36,3.64,0.08,0.07,foraminifera,benthos,Calcite
+17,Marchitto et al (2014),P194AR-B7,Cibicidoides wuellerstorfi,-0.43,0.34,3.71,0.08,0.07,foraminifera,benthos,Calcite
+18,Marchitto et al (2014),P194AR-B8,Cibicidoides wuellerstorfi,-0.38,0.32,3.69,0.08,0.07,foraminifera,benthos,Calcite
+19,Marchitto et al (2014),P194AR-B12,Cibicidoides wuellerstorfi,-0.41,0.34,3.83,0.08,0.07,foraminifera,benthos,Calcite
+20,Marchitto et al (2014),P194AR-B16,Cibicidoides wuellerstorfi,-0.41,0.33,3.77,0.08,0.07,foraminifera,benthos,Calcite
+21,Marchitto et al (2014),P194AR-B17,Cibicidoides wuellerstorfi,-0.41,0.34,3.73,0.08,0.07,foraminifera,benthos,Calcite
+22,Marchitto et al (2014),P194AR-B19,Cibicidoides wuellerstorfi,-0.39,0.34,3.7,0.08,0.07,foraminifera,benthos,Calcite
+23,Marchitto et al (2014),P194AR-B20,Cibicidoides wuellerstorfi,-0.39,0.36,3.74,0.08,0.07,foraminifera,benthos,Calcite
+24,Marchitto et al (2014),P194AR-B21,Cibicidoides wuellerstorfi,-0.4,0.36,3.76,0.08,0.07,foraminifera,benthos,Calcite
+25,Marchitto et al (2014),P194AR-B23,Cibicidoides wuellerstorfi,-0.43,0.36,3.73,0.08,0.07,foraminifera,benthos,Calcite
+26,Marchitto et al (2014),P194AR-B26,Cibicidoides wuellerstorfi,-0.63,0.33,3.66,0.08,0.07,foraminifera,benthos,Calcite
+27,Marchitto et al (2014),P194AR-B28,Cibicidoides wuellerstorfi,-0.64,0.33,3.76,0.08,0.07,foraminifera,benthos,Calcite
+1,Marchitto et al (2014),OC205-2-7JPC,Hoeglundina elegans,4.4,0.29,3.54,0.08,0.07,foraminifera,benthos,Aragonite
+2,Marchitto et al (2014),OC205-2-48BC,Hoeglundina elegans,12.7,0.65,1.92,0.08,0.07,foraminifera,benthos,Aragonite
+3,Marchitto et al (2014),OC205-2-50BC,Hoeglundina elegans,8.4,0.37,2.96,0.08,0.07,foraminifera,benthos,Aragonite
+4,Marchitto et al (2014),OC205-2-53BC,Hoeglundina elegans,5.5,0.31,3.44,0.08,0.07,foraminifera,benthos,Aragonite
+5,Marchitto et al (2014),OC205-2-55BC,Hoeglundina elegans,4.9,0.3,3.51,0.08,0.07,foraminifera,benthos,Aragonite
+6,Marchitto et al (2014),OC205-2-59BC,Hoeglundina elegans,4.2,0.28,3.64,0.08,0.07,foraminifera,benthos,Aragonite
+7,Marchitto et al (2014),OC205-2-67BC,Hoeglundina elegans,4.3,0.28,3.63,0.08,0.07,foraminifera,benthos,Aragonite
+8,Marchitto et al (2014),OC205-2-69BC,Hoeglundina elegans,10,0.46,2.62,0.08,0.07,foraminifera,benthos,Aragonite
+9,Marchitto et al (2014),OC205-2-70BC,Hoeglundina elegans,7.6,0.36,3.24,0.08,0.07,foraminifera,benthos,Aragonite
+10,Marchitto et al (2014),OC205-2-72BC,Hoeglundina elegans,7,0.35,3.46,0.08,0.07,foraminifera,benthos,Aragonite
+11,Marchitto et al (2014),OC205-2-74BC,Hoeglundina elegans,12.7,0.65,2.18,0.08,0.07,foraminifera,benthos,Aragonite
+12,Marchitto et al (2014),OC205-2-97JPC,Hoeglundina elegans,4.8,0.3,3.52,0.08,0.07,foraminifera,benthos,Aragonite
+13,Marchitto et al (2014),OC205-2-98GGC,Hoeglundina elegans,7.6,0.36,3.09,0.08,0.07,foraminifera,benthos,Aragonite
+14,Marchitto et al (2014),OC205-2-100GGC,Hoeglundina elegans,5.3,0.31,3.46,0.08,0.07,foraminifera,benthos,Aragonite
+15,Marchitto et al (2014),OC205-2-103GGC,Hoeglundina elegans,6.1,0.33,3.38,0.08,0.07,foraminifera,benthos,Aragonite
+16,Marchitto et al (2014),OC205-2-106GGC,Hoeglundina elegans,11.7,0.57,2.53,0.08,0.07,foraminifera,benthos,Aragonite
+17,Marchitto et al (2014),OC205-2-108GGC,Hoeglundina elegans,9.8,0.45,2.51,0.08,0.07,foraminifera,benthos,Aragonite
+18,Marchitto et al (2014),OC205-2-117JPC,Hoeglundina elegans,4.1,0.28,3.78,0.08,0.07,foraminifera,benthos,Aragonite
+19,Marchitto et al (2014),OC205-2-144JPC,Hoeglundina elegans,8.1,0.36,2.82,0.08,0.07,foraminifera,benthos,Aragonite
+20,Marchitto et al (2014),OC205-2-148GGC,Hoeglundina elegans,15.9,0.92,1.6,0.08,0.07,foraminifera,benthos,Aragonite
+21,Marchitto et al (2014),OC205-2-149JPC,Hoeglundina elegans,16.1,0.94,1.35,0.08,0.07,foraminifera,benthos,Aragonite
+22,Marchitto et al (2014),W120A-05G,Hoeglundina elegans,15.6,0.9,1.64,0.08,0.07,foraminifera,benthos,Aragonite
+23,Marchitto et al (2014),W120A-06G,Hoeglundina elegans,16.3,0.95,1.49,0.08,0.07,foraminifera,benthos,Aragonite
+24,Marchitto et al (2014),W120A-08G,Hoeglundina elegans,16.8,1,1.42,0.08,0.07,foraminifera,benthos,Aragonite
+25,Marchitto et al (2014),W120A-09G,Hoeglundina elegans,16.9,1.01,1.51,0.08,0.07,foraminifera,benthos,Aragonite
+26,Marchitto et al (2014),W120A-10G,Hoeglundina elegans,17,1.02,1.51,0.08,0.07,foraminifera,benthos,Aragonite
+27,Marchitto et al (2014),W120A-11G,Hoeglundina elegans,17.1,1.02,1.41,0.08,0.07,foraminifera,benthos,Aragonite
+28,Marchitto et al (2014),W120A-12G,Hoeglundina elegans,17.2,1.03,1.26,0.08,0.07,foraminifera,benthos,Aragonite
+29,Marchitto et al (2014),W120A-14G,Hoeglundina elegans,17.7,1.07,1.36,0.08,0.07,foraminifera,benthos,Aragonite
+30,Marchitto et al (2014),W120A-15G,Hoeglundina elegans,17.7,1.08,1.46,0.08,0.07,foraminifera,benthos,Aragonite
+31,Marchitto et al (2014),W120A-16G,Hoeglundina elegans,17.9,1.09,1.3,0.08,0.07,foraminifera,benthos,Aragonite
+32,Marchitto et al (2014),W120A-17G,Hoeglundina elegans,18.2,1.12,1.3,0.08,0.07,foraminifera,benthos,Aragonite
+33,Marchitto et al (2014),W120A-18G,Hoeglundina elegans,18.6,1.14,1.28,0.08,0.07,foraminifera,benthos,Aragonite
+34,Marchitto et al (2014),W120A-19G,Hoeglundina elegans,18.6,1.14,1.39,0.08,0.07,foraminifera,benthos,Aragonite
+35,Marchitto et al (2014),W120A-20G,Hoeglundina elegans,20.5,1.24,1.02,0.08,0.07,foraminifera,benthos,Aragonite
+36,Marchitto et al (2014),W120A-21G,Hoeglundina elegans,20.8,1.25,0.9,0.08,0.07,foraminifera,benthos,Aragonite
+37,Marchitto et al (2014),W120A-23G,Hoeglundina elegans,21.8,1.25,0.76,0.08,0.07,foraminifera,benthos,Aragonite
+38,Marchitto et al (2014),W120A-24G,Hoeglundina elegans,23.2,1.25,0.62,0.08,0.07,foraminifera,benthos,Aragonite
+39,Marchitto et al (2014),W120A-27G,Hoeglundina elegans,25.6,1.12,-0.71,0.08,0.07,foraminifera,benthos,Aragonite
+1,bouvier (1985),10-5,Orbulina universa,20,0.62,-0.91,0.22,0.14,foraminifera,mixoplankton,Calcite
+2,bouvier (1985),10-7,Orbulina universa,22.6,0.48,-1.29,0.22,0.14,foraminifera,mixoplankton,Calcite
+3,bouvier (1985),10-7,Globorotalia menardii,22.6,0.48,-1.63,0.22,0.14,foraminifera,mixoplankton,Calcite
+4,bouvier (1985),10-8,Orbulina universa,23,0.48,-1.66,0.22,0.14,foraminifera,mixoplankton,Calcite
+5,bouvier (1985),10-8,Globorotalia menardii,23,0.48,-1.44,0.22,0.14,foraminifera,mixoplankton,Calcite
+6,bouvier (1985),10-9,Orbulina universa,24.2,0.36,-1.99,0.22,0.14,foraminifera,mixoplankton,Calcite
+7,bouvier (1985),10-9,Neogloboquadrina dutertrei,24.2,0.36,-1.96,0.22,0.14,foraminifera,mixoplankton,Calcite
+8,bouvier (1985),10-9,Globorotalia menardii,24.2,0.36,-2.04,0.22,0.14,foraminifera,mixoplankton,Calcite
+9,bouvier (1985),10-10,Neogloboquadrina dutertrei,25.6,0.33,-2.3,0.22,0.14,foraminifera,mixoplankton,Calcite
+10,bouvier (1985),10-11,Orbulina universa,26.6,0.33,-2.44,0.22,0.14,foraminifera,mixoplankton,Calcite
+11,bouvier (1985),10-11,Globorotalia menardii,26.6,0.33,-2.56,0.22,0.14,foraminifera,mixoplankton,Calcite
+12,bouvier (1985),10-12,Orbulina universa,27,0.29,-2.68,0.22,0.14,foraminifera,mixoplankton,Calcite
+13,bouvier (1985),13-2,Globorotalia menardii,27.4,0.36,-2.56,0.22,0.14,foraminifera,mixoplankton,Calcite
+14,bouvier (1985),13-7,Orbulina universa,27.6,0.1,-2.49,0.22,0.14,foraminifera,mixoplankton,Calcite
+15,bouvier (1985),13-4,Globorotalia menardii,27.7,0.26,-2.95,0.22,0.14,foraminifera,mixoplankton,Calcite
+16,bouvier (1985),13-13,Neogloboquadrina dutertrei,27.7,0.25,-2.98,0.22,0.14,foraminifera,mixoplankton,Calcite
+17,bouvier (1985),10-20,Neogloboquadrina dutertrei,28.3,0.5,-2.82,0.22,0.14,foraminifera,mixoplankton,Calcite
+18,bouvier (1985),10-26,Globorotalia menardii,28.3,0.48,-2.6,0.22,0.14,foraminifera,mixoplankton,Calcite
+19,bouvier (1985),10-16,Neogloboquadrina dutertrei,28.6,0.32,-2.73,0.22,0.14,foraminifera,mixoplankton,Calcite
+20,bouvier (1985),10-15,Globorotalia menardii,28.7,0.38,-2.65,0.22,0.14,foraminifera,mixoplankton,Calcite
+21,bouvier (1985),10-17,Orbulina universa,28.8,0.38,-2.44,0.22,0.14,foraminifera,mixoplankton,Calcite
+22,bouvier (1985),10-28,Orbulina universa,28.8,0.54,-2.83,0.22,0.14,foraminifera,mixoplankton,Calcite
+23,bouvier (1985),13-71,Neogloboquadrina dutertrei,28.8,0.62,-2.8,0.22,0.14,foraminifera,mixoplankton,Calcite
+24,bouvier (1985),10-31,Neogloboquadrina dutertrei,29,0.77,-2.9,0.22,0.14,foraminifera,mixoplankton,Calcite
+25,bouvier (1985),13-23,Orbulina universa,29.5,0.3,-2.97,0.22,0.14,foraminifera,mixoplankton,Calcite
+26,bouvier (1985),13-23,Neogloboquadrina dutertrei,29.5,0.3,-2.67,0.22,0.14,foraminifera,mixoplankton,Calcite
+27,bouvier (1985),13-67,Neogloboquadrina dutertrei,29.8,0.77,-3.02,0.22,0.14,foraminifera,mixoplankton,Calcite
+28,bouvier (1985),10-10,Orbulina universa,25.6,0.33,-2.209718416853760,0.22,0.14,foraminifera,mixoplankton,Calcite
+29,bouvier (1985),10-10,Orbulina universa,25.6,0.33,-2.160137123043110,0.22,0.14,foraminifera,mixoplankton,Calcite
+30,bouvier (1985),10-10,Globorotalia menardii,25.6,0.33,-2.2499488703495100,0.22,0.14,foraminifera,mixoplankton,Calcite
+31,bouvier (1985),10-10,Globorotalia menardii,25.6,0.33,-2.2413352382018700,0.22,0.14,foraminifera,mixoplankton,Calcite
+32,bouvier (1985),10-11,Neogloboquadrina dutertrei,26.6,0.33,-2.382827397608120,0.22,0.14,foraminifera,mixoplankton,Calcite
+33,bouvier (1985),10-11,Neogloboquadrina dutertrei,26.6,0.33,-2.3951899758797100,0.22,0.14,foraminifera,mixoplankton,Calcite
+34,bouvier (1985),10-11,Neogloboquadrina dutertrei,26.6,0.33,-2.392021426108080,0.22,0.14,foraminifera,mixoplankton,Calcite
+35,bouvier (1985),10-11,Neogloboquadrina dutertrei,26.6,0.33,-2.4573882102170800,0.22,0.14,foraminifera,mixoplankton,Calcite
+36,bouvier (1985),10-19,Neogloboquadrina dutertrei,27.3,0.42,-2.4799193140558600,0.22,0.14,foraminifera,mixoplankton,Calcite
+37,bouvier (1985),10-19,Neogloboquadrina dutertrei,27.3,0.42,-2.325559001425560,0.22,0.14,foraminifera,mixoplankton,Calcite
+38,bouvier (1985),10-19,Globorotalia menardii,27.3,0.42,-2.4709324366329500,0.22,0.14,foraminifera,mixoplankton,Calcite
+39,bouvier (1985),10-19,Globorotalia menardii,27.3,0.42,-2.4087311937404600,0.22,0.14,foraminifera,mixoplankton,Calcite
+40,bouvier (1985),10-19,Globorotalia menardii,27.3,0.42,-2.2443879416042900,0.22,0.14,foraminifera,mixoplankton,Calcite
+41,bouvier (1985),10-19,Globorotalia menardii,27.3,0.42,-2.3816584925087600,0.22,0.14,foraminifera,mixoplankton,Calcite
+42,bouvier (1985),13-13,Globorotalia menardii,27.7,0.25,-2.6127270519075400,0.22,0.14,foraminifera,mixoplankton,Calcite
+43,bouvier (1985),13-13,Globorotalia menardii,27.7,0.25,-2.593512434723630,0.22,0.14,foraminifera,mixoplankton,Calcite
+44,bouvier (1985),10-20,Globorotalia menardii,28.3,0.5,-2.327809569129050,0.22,0.14,foraminifera,mixoplankton,Calcite
+45,bouvier (1985),10-20,Globorotalia menardii,28.3,0.5,-2.258934991480770,0.22,0.14,foraminifera,mixoplankton,Calcite
+46,bouvier (1985),10-26,Neogloboquadrina dutertrei,28.3,0.48,-2.38188502923209,0.22,0.14,foraminifera,mixoplankton,Calcite
+47,bouvier (1985),10-26,Neogloboquadrina dutertrei,28.3,0.48,-2.299023901160700,0.22,0.14,foraminifera,mixoplankton,Calcite
+48,bouvier (1985),10-16,Globorotalia menardii,28.6,0.32,-2.788922674157950,0.22,0.14,foraminifera,mixoplankton,Calcite
+49,bouvier (1985),10-16,Globorotalia menardii,28.6,0.32,-2.4546560672513500,0.22,0.14,foraminifera,mixoplankton,Calcite
+50,bouvier (1985),10-17,Neogloboquadrina dutertrei,28.8,0.38,-2.7982975495735700,0.22,0.14,foraminifera,mixoplankton,Calcite
+51,bouvier (1985),10-17,Neogloboquadrina dutertrei,28.8,0.38,-2.742356519899990,0.22,0.14,foraminifera,mixoplankton,Calcite
+52,bouvier (1985),10-17,Neogloboquadrina dutertrei,28.8,0.38,-2.719206186866450,0.22,0.14,foraminifera,mixoplankton,Calcite
+53,bouvier (1985),10-17,Neogloboquadrina dutertrei,28.8,0.38,-2.653995975570330,0.22,0.14,foraminifera,mixoplankton,Calcite
+54,bouvier (1985),10-17,Neogloboquadrina dutertrei,28.8,0.38,-2.7792180344244000,0.22,0.14,foraminifera,mixoplankton,Calcite
+55,bouvier (1985),10-17,Neogloboquadrina dutertrei,28.8,0.38,-2.805196482368820,0.22,0.14,foraminifera,mixoplankton,Calcite
+56,bouvier (1985),10-17,Globorotalia menardii,28.8,0.38,-2.973285025464170,0.22,0.14,foraminifera,mixoplankton,Calcite
+57,bouvier (1985),10-17,Globorotalia menardii,28.8,0.38,-3.158358868440650,0.22,0.14,foraminifera,mixoplankton,Calcite
+58,bouvier (1985),10-28,Neogloboquadrina dutertrei,28.8,0.54,-2.51100307225465,0.22,0.14,foraminifera,mixoplankton,Calcite
+59,bouvier (1985),10-28,Neogloboquadrina dutertrei,28.8,0.54,-2.5307499339482600,0.22,0.14,foraminifera,mixoplankton,Calcite
+60,bouvier (1985),10-28,Neogloboquadrina dutertrei,28.8,0.54,-2.497555989149000,0.22,0.14,foraminifera,mixoplankton,Calcite
+61,bouvier (1985),10-28,Neogloboquadrina dutertrei,28.8,0.54,-2.5074561406409600,0.22,0.14,foraminifera,mixoplankton,Calcite
+62,bouvier (1985),10-28,Neogloboquadrina dutertrei,28.8,0.54,-2.5448175246606700,0.22,0.14,foraminifera,mixoplankton,Calcite
+63,bouvier (1985),10-28,Neogloboquadrina dutertrei,28.8,0.54,-2.5214642467312100,0.22,0.14,foraminifera,mixoplankton,Calcite
+64,bouvier (1985),10-28,Neogloboquadrina dutertrei,28.8,0.54,-2.491761004340460,0.22,0.14,foraminifera,mixoplankton,Calcite
+65,bouvier (1985),10-28,Neogloboquadrina dutertrei,28.8,0.54,-2.4853126995222900,0.22,0.14,foraminifera,mixoplankton,Calcite
+66,bouvier (1985),10-28,Neogloboquadrina dutertrei,28.8,0.54,-2.496775292678620,0.22,0.14,foraminifera,mixoplankton,Calcite
+67,bouvier (1985),10-28,Neogloboquadrina dutertrei,28.8,0.54,-2.5272210453450300,0.22,0.14,foraminifera,mixoplankton,Calcite
+68,bouvier (1985),10-28,Globorotalia menardii,28.8,0.54,-2.8313215705806600,0.22,0.14,foraminifera,mixoplankton,Calcite
+69,bouvier (1985),10-28,Globorotalia menardii,28.8,0.54,-2.797168436459400,0.22,0.14,foraminifera,mixoplankton,Calcite
+70,bouvier (1985),10-28,Globorotalia menardii,28.8,0.54,-2.810179374441500,0.22,0.14,foraminifera,mixoplankton,Calcite
+71,bouvier (1985),10-28,Globorotalia menardii,28.8,0.54,-2.746072174341440,0.22,0.14,foraminifera,mixoplankton,Calcite
+72,bouvier (1985),10-28,Globorotalia menardii,28.8,0.54,-2.7569020079605400,0.22,0.14,foraminifera,mixoplankton,Calcite
+73,bouvier (1985),10-29,Neogloboquadrina dutertrei,29,0.66,-2.963575559653200,0.22,0.14,foraminifera,mixoplankton,Calcite
+74,bouvier (1985),10-29,Neogloboquadrina dutertrei,29,0.66,-2.9575533700702400,0.22,0.14,foraminifera,mixoplankton,Calcite
+75,bouvier (1985),10-29,Neogloboquadrina dutertrei,29,0.66,-2.9605949686370300,0.22,0.14,foraminifera,mixoplankton,Calcite
+76,bouvier (1985),10-31,Globorotalia menardii,29,0.77,-3.09427026363839,0.22,0.14,foraminifera,mixoplankton,Calcite
+77,bouvier (1985),10-31,Globorotalia menardii,29,0.77,-2.956849288351840,0.22,0.14,foraminifera,mixoplankton,Calcite
+78,bouvier (1985),10-31,Globorotalia menardii,29,0.77,-3.0376468209509700,0.22,0.14,foraminifera,mixoplankton,Calcite
+79,bouvier (1985),10-31,Globorotalia menardii,29,0.77,-3.03420447897608,0.22,0.14,foraminifera,mixoplankton,Calcite
+80,bouvier (1985),10-31,Globorotalia menardii,29,0.77,-2.9998824890439700,0.22,0.14,foraminifera,mixoplankton,Calcite
+81,bouvier (1985),13-66,Neogloboquadrina dutertrei,30.4,0.77,-2.9356038422385000,0.22,0.14,foraminifera,mixoplankton,Calcite
+82,bouvier (1985),13-66,Neogloboquadrina dutertrei,30.4,0.77,-2.850487720492410,0.22,0.14,foraminifera,mixoplankton,Calcite

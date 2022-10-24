@@ -1,0 +1,33 @@
+aiodns @ file:///build/source/dist/aiodns-3.0.0-py3-none-any.whl
+aiohttp @ file:///build/aiohttp-3.8.1/dist/aiohttp-3.8.1-cp39-cp39-linux_x86_64.whl
+aiosignal @ file:///build/source/dist/aiosignal-1.2.0-py3-none-any.whl
+appdirs @ file:///build/appdirs-1.4.4/dist/appdirs-1.4.4-py2.py3-none-any.whl
+async-timeout @ file:///build/async-timeout-4.0.2/dist/async_timeout-4.0.2-py3-none-any.whl
+attrs @ file:///build/attrs-21.4.0/dist/attrs-21.4.0-py2.py3-none-any.whl
+Brotli @ file:///build/source/dist/Brotli-1.0.9-cp39-cp39-linux_x86_64.whl
+cchardet @ file:///build/cchardet-2.1.7/dist/cchardet-2.1.7-cp39-cp39-linux_x86_64.whl
+cffi @ file:///build/cffi-1.15.0/dist/cffi-1.15.0-cp39-cp39-linux_x86_64.whl
+charset-normalizer @ file:///build/source/dist/charset_normalizer-2.0.12-py3-none-any.whl
+clikit @ file:///build/clikit-0.6.2/dist/clikit-0.6.2-py3-none-any.whl
+crashtest @ file:///build/crashtest-0.3.1/dist/crashtest-0.3.1-py3-none-any.whl
+frozenlist @ file:///build/source/dist/frozenlist-1.3.0-cp39-cp39-linux_x86_64.whl
+httpstan==4.8.2
+idna @ file:///build/idna-3.3/dist/idna-3.3-py3-none-any.whl
+marshmallow @ file:///build/source/dist/marshmallow-3.15.0-py3-none-any.whl
+multidict @ file:///build/multidict-6.0.2/dist/multidict-6.0.2-cp39-cp39-linux_x86_64.whl
+numpy @ file:///build/numpy-1.21.5/dist/numpy-1.21.5-cp39-cp39-linux_x86_64.whl
+packaging @ file:///build/packaging-21.3/dist/packaging-21.3-py3-none-any.whl
+pandas @ file:///build/pandas-1.4.2/dist/pandas-1.4.2-cp39-cp39-linux_x86_64.whl
+pastel @ file:///build/pastel-0.2.1/dist/pastel-0.2.1-py3-none-any.whl
+pycares @ file:///build/pycares-4.1.2/dist/pycares-4.1.2-cp39-cp39-linux_x86_64.whl
+pycparser @ file:///build/pycparser-2.21/dist/pycparser-2.21-py2.py3-none-any.whl
+pylev @ file:///build/source/dist/pylev-1.4.0-py2.py3-none-any.whl
+pyparsing @ file:///build/source/dist/pyparsing-3.0.9-py3-none-any.whl
+pysimdjson==3.2.0
+pystan==3.5.0
+python-dateutil @ file:///build/python-dateutil-2.8.2/dist/python_dateutil-2.8.2-py2.py3-none-any.whl
+pytz @ file:///build/pytz-2022.1/dist/pytz-2022.1-py3-none-any.whl
+six @ file:///build/six-1.16.0/dist/six-1.16.0-py2.py3-none-any.whl
+typing_extensions @ file:///build/typing_extensions-4.1.1/dist/typing_extensions-4.1.1-py3-none-any.whl
+webargs @ file:///build/webargs-8.1.0/dist/webargs-8.1.0-py3-none-any.whl
+yarl @ file:///build/yarl-1.7.2/dist/yarl-1.7.2-cp39-cp39-linux_x86_64.whl
