@@ -2,7 +2,7 @@ import arviz as az
 import pandas as pd
 import stan
 
-data = pd.read_csv("merged_data.csv")[["temperature", "d18_O_w", "d18_O"]] # "species",
+data = pd.read_csv("merged_data.csv")[["temperature", "d18_O_w", "d18_O"]]
 
 posterior = stan.build(
 """
