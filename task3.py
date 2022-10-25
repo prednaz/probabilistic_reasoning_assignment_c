@@ -30,6 +30,7 @@ f"""\
     b{species} ~ normal(-6.5, 17);
     sigma{species} ~ normal(0, 2);
 """,
+data,
     )
 
 # map(stan_input, data.groupby("species"))
