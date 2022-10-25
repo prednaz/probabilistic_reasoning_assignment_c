@@ -14,8 +14,8 @@ data {
     vector[N] d18_O;
 }
 generated quantities {
-    real a = normal_rng(0, 50);
-    real b = normal_rng(0, 17);
+    real a = normal_rng(17.5, 50);
+    real b = normal_rng(-6.5, 17);
     real sigma = abs(normal_rng(0, 2));
     array[N] real temperature = normal_rng(a + b * (d18_O - d18_O_w), sigma);
 }
@@ -32,5 +32,5 @@ ts_sample_mean = []
 for ts in ts_samples:
     ts_sample_mean.append(ts.mean())
 
-plt.plot(ts_real, ts_sample_mean)
+plt.plot(ts_real, ts_sample_mean, "o")
 plt.show()
