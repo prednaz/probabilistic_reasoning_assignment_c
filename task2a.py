@@ -1,3 +1,4 @@
+from common import frame_for_stan
 import arviz as az
 import pandas as pd
 import stan
@@ -20,7 +21,7 @@ generated quantities {
     array[N] real temperature = normal_rng(a + b * (d18_O - d18_O_w), sigma);
 }
 """,
-    data={"N": data.shape[0], **data.to_dict("list")},
+    data=frame_for_stan(data),
     random_seed=1,
 )
 fit = posterior.fixed_param(num_chains=2, num_samples=50)

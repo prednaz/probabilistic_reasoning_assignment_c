@@ -1,56 +1,57 @@
+from common import (frame_for_stan, to_identifier_suffix)
 import arviz as az
 from operator import itemgetter
 import pandas as pd
 import stan
 
-data = pd.read_csv("merged_data.csv")[["species", "temperature", "d18_O_w", "d18_O"]]
+data = pd.read_csv("merged_data.csv")[["species", "temperature", "d18_O_w", "d18_O"]].groupby("species")
 
-def stan_input(species_data):
-    species = "_" + species_data[0].lower().replace(" ", "_")
-    data = {
-        f"N{species}": species_data[1].shape[0],
-        f"temperature{species}": species_data[1]["temperature"].to_list(),
-        f"d18_O_w{species}": species_data[1]["d18_O_w"].to_list(),
-        f"d18_O{species}": species_data[1]["d18_O"].to_list(),
-    }
-    return (
-f"""\
+def data_stan(species_data):
+    species = to_identifier_suffix(species_data[0])
+    return f"""\
     int<lower=0> N{species};
     vector[N{species}] temperature{species};
     vector[N{species}] d18_O_w{species};
     vector[N{species}] d18_O{species};
-""",
-f"""\
+"""
+
+def parameters_stan(species_data):
+    species = to_identifier_suffix(species_data[0])
+    return f"""\
     real a{species};
     real b{species};
     real<lower=0> sigma{species};
-""",
-f"""\
+"""
+
+def model_stan(species_data):
+    species = to_identifier_suffix(species_data[0])
+    return f"""\
     temperature{species} ~ normal(a{species} + b{species} * (d18_O{species} - d18_O_w{species}), sigma{species});
     a{species} ~ normal(17.5, 50);
     b{species} ~ normal(-6.5, 17);
     sigma{species} ~ normal(0, 2);
-""",
-        data,
-    )
+"""
 
-stan_inputs = tuple(map(stan_input, data.groupby("species")))
-data_stan = "".join(map(itemgetter(0), stan_inputs))
-parameters_stan = "".join(map(itemgetter(1), stan_inputs))
-model_stan = "".join(map(itemgetter(2), stan_inputs))
+def data_for_stan(species_data):
+    species = to_identifier_suffix(species_data[0])
+    return {
+        key + species: value
+        for (key, value)
+        in frame_for_stan(species_data[1][["temperature", "d18_O_w", "d18_O"]]).items()
+    }
 
 data_current = {}
-for data_new in map(itemgetter(3), stan_inputs):
+for data_new in map(data_for_stan, data):
     data_current |= data_new
 
 posterior = stan.build(
 f"""
 data {{
-{data_stan}}}
+{"".join(map(data_stan, data))}}}
 parameters {{
-{parameters_stan}}}
+{"".join(map(parameters_stan, data))}}}
 model {{
-{model_stan}}}
+{"".join(map(model_stan, data))}}}
 """,
     data=data_current,
     random_seed=1,
