@@ -1,4 +1,5 @@
 import arviz as az
+from operator import itemgetter
 import pandas as pd
 import stan
 
@@ -30,37 +31,33 @@ f"""\
     b{species} ~ normal(-6.5, 17);
     sigma{species} ~ normal(0, 2);
 """,
-data,
+        data,
     )
 
-# map(stan_input, data.groupby("species"))
+stan_inputs = tuple(map(stan_input, data.groupby("species")))
+data_stan = "".join(map(itemgetter(0), stan_inputs))
+parameters_stan = "".join(map(itemgetter(1), stan_inputs))
+model_stan = "".join(map(itemgetter(2), stan_inputs))
 
-# posterior = stan.build(
-# """
-# data {
-#     int<lower=0> N;
-#     vector[N] temperature;
-#     vector[N] d18_O_w;
-#     vector[N] d18_O;
-# }
-# parameters {
-#     real a;
-#     real b;
-#     real<lower=0> sigma;
-# }
-# model {
-#     temperature ~ normal(a + b * (d18_O - d18_O_w), sigma);
-#     a ~ normal(17.5, 50);
-#     b ~ normal(-6.5, 17);
-#     sigma ~ normal(0, 2);
-# }
-# """,
-#     data={"N": data.shape[0], **data.to_dict("list")},
-#     random_seed=1
-# )
-# fit = posterior.sample(num_chains=2, num_samples=1000)
+data_current = {}
+for data_new in map(itemgetter(3), stan_inputs):
+    data_current |= data_new
 
-# print(az.summary(fit))
+posterior = stan.build(
+f"""
+data {{
+{data_stan}}}
+parameters {{
+{parameters_stan}}}
+model {{
+{model_stan}}}
+""",
+    data=data_current,
+    random_seed=1
+)
+fit = posterior.sample(num_chains=2, num_samples=1000)
+
+print(az.summary(fit))
 
 # Gelman-Rubin statistic \texttt{r_hat} within 0.05 of 1 indicates that the
 # chain has converged and therefore the sample is drawn from the
