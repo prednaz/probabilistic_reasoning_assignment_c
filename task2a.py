@@ -2,6 +2,8 @@ import arviz as az
 import pandas as pd
 import stan
 
+import matplotlib.pyplot as plt
+
 data = pd.read_csv("merged_data.csv")[["temperature", "d18_O_w", "d18_O"]]
 
 posterior = stan.build(
@@ -23,8 +25,12 @@ generated quantities {
 )
 fit = posterior.fixed_param(num_chains=2, num_samples=1000)
 
-print(az.summary(fit))
+ts_samples = fit["temperature"]
+ts_real = data["temperature"]
 
-print(fit.to_frame().describe().T) # to do. merge the temperatures?
+ts_sample_mean = []
+for ts in ts_samples:
+    ts_sample_mean.append(ts.mean())
 
-print(data.describe().T)
+plt.plot(ts_real, ts_sample_mean)
+plt.show()
