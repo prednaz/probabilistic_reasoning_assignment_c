@@ -47,3 +47,7 @@ plt.show()
 # temperature[374]  49.444  96.778 -119.814  213.032      8.656    7.348     124.0      81.0   1.00
 # temperature[375]  49.168  95.941 -117.071  215.085      8.632    7.305     124.0      81.0   1.00
 # temperature[376]  48.969  94.448 -115.719  214.546      8.435    7.167     120.0      80.0   1.00
+
+# The effective sample size \texttt{ess_bulk} is less than 400 and the
+# Gelman-Rubin statistic \texttt{r_hat} is worse than usually. this is no
+# problem because we are not fitting any parameters.
