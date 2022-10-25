@@ -20,16 +20,14 @@ def parameters_stan(species_data):
     return f"""\
     real a{species};
     real b{species};
-    real<lower=0> sigma{species};
 """
 
 def model_stan(species_data):
     species = to_identifier_suffix(species_data[0])
     return f"""\
-    temperature{species} ~ normal(a{species} + b{species} * (d18_O{species} - d18_O_w{species}), sigma{species});
+    temperature{species} ~ normal(a{species} + b{species} * (d18_O{species} - d18_O_w{species}), sigma);
     a{species} ~ normal(17.5, 50);
     b{species} ~ normal(-6.5, 17);
-    sigma{species} ~ normal(0, 2);
 """
 
 def data_for_stan(species_data):
@@ -42,15 +40,17 @@ def data_for_stan(species_data):
 
 data_current = {}
 for data_new in map(data_for_stan, data):
-    data_current |= data_new
+    data_current.update(data_new)
 
 posterior = stan.build(
 f"""
 data {{
 {"".join(map(data_stan, data))}}}
 parameters {{
+    real<lower=0> sigma;
 {"".join(map(parameters_stan, data))}}}
 model {{
+    sigma ~ normal(0, 2);
 {"".join(map(model_stan, data))}}}
 """,
     data=data_current,
@@ -60,40 +60,30 @@ fit = posterior.sample(num_chains=2, num_samples=1000)
 
 print(az.summary(fit))
 
-#                                     mean     sd  hdi_3%  hdi_97%  mcse_mean  mcse_sd  ess_bulk  ess_tail  r_hat
-# a_cibicides_pachyderma            14.492  0.138  14.228   14.738      0.003    0.002    1904.0    1540.0   1.00
-# b_cibicides_pachyderma            -4.403  0.139  -4.679   -4.168      0.003    0.002    1946.0    1530.0   1.00
-# sigma_cibicides_pachyderma         0.629  0.098   0.471    0.814      0.002    0.002    2429.0    1396.0   1.00
-# a_cibicidoides_wuellerstorfi       9.202  0.287   8.660    9.714      0.008    0.006    1232.0    1211.0   1.00
-# b_cibicidoides_wuellerstorfi      -2.756  0.098  -2.923   -2.564      0.003    0.002    1224.0    1137.0   1.00
-# sigma_cibicidoides_wuellerstorfi   0.345  0.027   0.296    0.396      0.001    0.000    1879.0    1293.0   1.01
-# a_globorotalia_menardii           18.464  1.168  16.215   20.581      0.034    0.024    1216.0    1303.0   1.00
-# b_globorotalia_menardii           -3.012  0.379  -3.748   -2.313      0.011    0.008    1211.0    1258.0   1.00
-# sigma_globorotalia_menardii        0.969  0.130   0.748    1.222      0.003    0.002    1702.0    1304.0   1.00
-# a_hoeglundina_elegans             18.746  0.165  18.448   19.059      0.004    0.003    1551.0    1474.0   1.00
-# b_hoeglundina_elegans             -3.955  0.065  -4.070   -3.827      0.002    0.001    1505.0    1436.0   1.00
-# sigma_hoeglundina_elegans          0.983  0.068   0.861    1.105      0.002    0.001    2024.0    1421.0   1.00
-# a_neogloboquadrina_dutertrei      19.358  1.278  16.907   21.695      0.038    0.027    1158.0     960.0   1.00
-# b_neogloboquadrina_dutertrei      -2.896  0.408  -3.613   -2.084      0.012    0.009    1159.0     977.0   1.00
-# sigma_neogloboquadrina_dutertrei   0.798  0.102   0.626    0.992      0.003    0.002    1773.0    1138.0   1.00
-# a_orbulina_universa               13.052  1.625  10.162   16.179      0.050    0.035    1089.0     932.0   1.00
-# b_orbulina_universa               -4.984  0.621  -6.045   -3.688      0.019    0.014    1083.0     983.0   1.00
-# sigma_orbulina_universa            1.093  0.280   0.646    1.615      0.008    0.006    1607.0    1257.0   1.00
-# a_planulina_ariminensis           13.606  0.803  12.143   15.074      0.024    0.017    1330.0     799.0   1.00
-# b_planulina_ariminensis           -3.772  0.716  -5.123   -2.556      0.022    0.016    1241.0     882.0   1.00
-# sigma_planulina_ariminensis        0.669  0.218   0.351    1.068      0.007    0.005    1250.0    1170.0   1.00
-# a_planulina_foveolata             13.717  0.541  12.705   14.747      0.013    0.009    1728.0     872.0   1.00
-# b_planulina_foveolata             -4.611  1.016  -6.458   -2.726      0.024    0.017    1913.0    1416.0   1.00
-# sigma_planulina_foveolata          1.615  0.416   0.949    2.383      0.011    0.008    1556.0    1345.0   1.00
-# a_uvigerina_curticosta            22.269  1.981  18.292   25.835      0.059    0.042    1158.0    1149.0   1.00
-# b_uvigerina_curticosta            -5.820  0.658  -7.087   -4.603      0.020    0.014    1153.0    1134.0   1.00
-# sigma_uvigerina_curticosta         0.468  0.165   0.240    0.757      0.005    0.003    1526.0    1208.0   1.00
-# a_uvigerina_flintii               16.329  0.482  15.392   17.273      0.013    0.009    1503.0     977.0   1.00
-# b_uvigerina_flintii               -2.944  0.881  -4.812   -1.435      0.023    0.017    1679.0    1078.0   1.00
-# sigma_uvigerina_flintii            1.069  0.461   0.438    1.880      0.015    0.011    1103.0    1278.0   1.00
-# a_uvigerina_peregrina             16.269  0.474  15.341   17.132      0.013    0.009    1369.0    1284.0   1.00
-# b_uvigerina_peregrina             -4.062  0.262  -4.544   -3.577      0.007    0.005    1405.0    1294.0   1.00
-# sigma_uvigerina_peregrina          1.275  0.192   0.971    1.662      0.005    0.003    1969.0    1557.0   1.00
+#                                 mean     sd  hdi_3%  hdi_97%  mcse_mean  mcse_sd  ess_bulk  ess_tail  r_hat
+# sigma                          0.834  0.032   0.772    0.893      0.001    0.000    2778.0    1626.0    1.0
+# a_cibicides_pachyderma        14.496  0.182  14.149   14.816      0.004    0.003    2218.0    1748.0    1.0
+# b_cibicides_pachyderma        -4.409  0.177  -4.749   -4.075      0.004    0.003    1819.0    1729.0    1.0
+# a_cibicidoides_wuellerstorfi   9.189  0.691   7.984   10.591      0.019    0.013    1382.0    1320.0    1.0
+# b_cibicidoides_wuellerstorfi  -2.753  0.236  -3.205   -2.317      0.006    0.004    1459.0    1436.0    1.0
+# a_globorotalia_menardii       18.416  0.986  16.685   20.355      0.023    0.016    1826.0    1354.0    1.0
+# b_globorotalia_menardii       -3.027  0.321  -3.623   -2.432      0.007    0.005    1836.0    1361.0    1.0
+# a_hoeglundina_elegans         18.742  0.142  18.467   19.003      0.003    0.002    1689.0    1328.0    1.0
+# b_hoeglundina_elegans         -3.953  0.057  -4.059   -3.848      0.001    0.001    1635.0    1413.0    1.0
+# a_neogloboquadrina_dutertrei  19.360  1.228  17.211   21.755      0.030    0.022    1631.0    1407.0    1.0
+# b_neogloboquadrina_dutertrei  -2.896  0.393  -3.570   -2.106      0.010    0.007    1635.0    1466.0    1.0
+# a_orbulina_universa           13.133  1.218  11.001   15.515      0.033    0.023    1347.0    1302.0    1.0
+# b_orbulina_universa           -4.958  0.465  -5.829   -4.086      0.012    0.009    1422.0    1211.0    1.0
+# a_planulina_ariminensis       13.585  0.902  11.947   15.234      0.022    0.015    1752.0    1600.0    1.0
+# b_planulina_ariminensis       -3.765  0.794  -5.209   -2.274      0.020    0.014    1583.0    1601.0    1.0
+# a_planulina_foveolata         13.742  0.265  13.274   14.281      0.005    0.004    2599.0    1422.0    1.0
+# b_planulina_foveolata         -4.587  0.508  -5.542   -3.618      0.010    0.007    2632.0    1494.0    1.0
+# a_uvigerina_curticosta        22.183  3.413  16.186   28.739      0.083    0.059    1711.0    1354.0    1.0
+# b_uvigerina_curticosta        -5.791  1.132  -8.093   -3.887      0.027    0.020    1723.0    1179.0    1.0
+# a_uvigerina_flintii           16.339  0.341  15.681   16.943      0.006    0.004    3111.0    1659.0    1.0
+# b_uvigerina_flintii           -2.927  0.611  -4.124   -1.841      0.011    0.008    2873.0    1666.0    1.0
+# a_uvigerina_peregrina         16.261  0.317  15.673   16.868      0.008    0.005    1698.0    1399.0    1.0
+# b_uvigerina_peregrina         -4.048  0.177  -4.390   -3.723      0.004    0.003    1695.0    1428.0    1.0
 
 # Gelman-Rubin statistic \texttt{r_hat} within 0.05 of 1 indicates that the
 # chain has converged and therefore the sample is drawn from the
