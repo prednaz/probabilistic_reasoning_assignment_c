@@ -14,8 +14,8 @@ data {
     vector[N] d18_O;
 }
 generated quantities {
-    real a = normal_rng(0, 50);
-    real b = normal_rng(0, 17);
+    real a = normal_rng(17.5, 50);
+    real b = normal_rng(-6.5, 17);
     real sigma = abs(normal_rng(0, 2));
     array[N] real temperature = normal_rng(a + b * (d18_O - d18_O_w), sigma);
 }
@@ -28,9 +28,9 @@ fit = posterior.fixed_param(num_chains=2, num_samples=1000)
 ts_samples = fit["temperature"]
 ts_real = data["temperature"]
 
-ts_sample_mean = []
-for ts in ts_samples:
-    ts_sample_mean.append(ts.mean())
 
-plt.plot(ts_real, ts_sample_mean)
+
+for ts_sample in ts_samples.T:
+    plt.scatter(ts_real, ts_sample)
+
 plt.show()
