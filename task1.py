@@ -22,7 +22,7 @@ model {
 }
 """,
     data={"N": data.shape[0], **data.to_dict("list")},
-    random_seed=1
+    random_seed=1,
 )
 fit = posterior.sample(num_chains=2, num_samples=1000)
 
