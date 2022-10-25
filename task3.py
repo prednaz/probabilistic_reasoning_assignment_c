@@ -9,9 +9,9 @@ def stan_input(species_data):
     species = "_" + species_data[0].lower().replace(" ", "_")
     data = {
         f"N{species}": species_data[1].shape[0],
-        f"temperature{species}": species_data[1]["temperature"],
-        f"d18_O_w{species}": species_data[1]["d18_O_w"],
-        f"d18_O{species}": species_data[1]["d18_O"],
+        f"temperature{species}": species_data[1]["temperature"].to_list(),
+        f"d18_O_w{species}": species_data[1]["d18_O_w"].to_list(),
+        f"d18_O{species}": species_data[1]["d18_O"].to_list(),
     }
     return (
 f"""\
