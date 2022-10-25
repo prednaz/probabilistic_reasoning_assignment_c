@@ -23,7 +23,7 @@ generated quantities {
     data={"N": data.shape[0], **data.to_dict("list")},
     random_seed=1
 )
-fit = posterior.fixed_param(num_chains=2, num_samples=1000)
+fit = posterior.fixed_param(num_chains=2, num_samples=50)
 
 ts_samples = fit["temperature"]
 ts_real = data["temperature"]
