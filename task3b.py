@@ -43,7 +43,7 @@ for data_new in map(data_for_stan, data):
     data_current.update(data_new)
 
 posterior = stan.build(
-f"""
+f"""\
 data {{
 {"".join(map(data_stan, data))}}}
 parameters {{
