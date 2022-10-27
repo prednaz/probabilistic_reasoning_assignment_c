@@ -37,6 +37,7 @@ in pkgs.mkShell rec {
     ps.webargs
     ps.pandas
     ps.arviz
+    ps.uncertainties
   ];
 
   # Run this command, only after creating the virtual environment
