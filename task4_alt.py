@@ -11,22 +11,17 @@ def predict(row):
     row = row[1]
     species = to_identifier_suffix(row["species"])
     
-    a = ufloat(model.loc[f"a{species}", "mean"], model.loc[f"a{species}", "sd"])
-
-    b_avg = model.loc[f"b{species}", "mean"]
-    b_std = model.loc[f"b{species}", "sd"]
-    b = ufloat(b_avg, b_std)
-
-    d18_O_avg = row["d18_O"]
-    d18_O_std = row["d18_O_sd"]
-    d18_O = ufloat(d18_O_avg, d18_O_std)
-
-    d18_O_w_avg = row["d18_O_w"]
-    d18_O_w_std = row["d18_O_w_sd"]
-    d18_O_w = ufloat(d18_O_w_avg, d18_O_w_std)
-
-    sigma_T_avg = model.loc["sigma", "mean"] #let's not worry about the error in the error for now
-    sigma_T = ufloat(0, sigma_T_avg)
+    a = ufloat(
+        model.loc[f"a{species}", "mean"],
+        model.loc[f"a{species}", "sd"]
+    )
+    b = ufloat(
+        model.loc[f"b{species}", "mean"],
+        model.loc[f"b{species}", "sd"]
+    )
+    d18_O = ufloat(row["d18_O"], row["d18_O_sd"])
+    d18_O_w = ufloat(row["d18_O_w"], row["d18_O_w_sd"])
+    sigma_T = ufloat(0, model.loc["sigma", "mean"]) #let's not worry about the error in the error for now
 
     return a + b * (d18_O - d18_O_w) + sigma_T
 

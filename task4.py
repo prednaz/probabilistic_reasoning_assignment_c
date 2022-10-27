@@ -15,6 +15,7 @@ def standard_deviation(row):
     row = row[1]
     species = to_identifier_suffix(row["species"])
     return sqrt(
+        model.loc["sigma", "mean"]**2 +
         model.loc[f"a{species}", "sd"]**2 +
         product_variance(
             model.loc[f"b{species}", "mean"],
