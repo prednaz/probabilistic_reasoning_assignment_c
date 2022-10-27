@@ -67,7 +67,7 @@ model {{
     a ~ normal(24, 26);
     b ~ normal(-3.5, 13.5);
     sigma_a ~ normal(0, 4);
-    sigma_b ~ normal(0, 2);
+    sigma_b ~ normal(0, 1);
 {"".join(map(model_stan, data))}}}
 """,
 # sigma_x standard deviations were chosen as
