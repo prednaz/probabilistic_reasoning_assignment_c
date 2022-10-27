@@ -5,6 +5,7 @@ from uncertainties import ufloat
 from uncertainties import unumpy
 
 import matplotlib.pyplot as plt
+from matplotlib.ticker import (MultipleLocator, AutoMinorLocator)
 
 # `model.csv` contains the ouput of `az.summary` with "p" prepended
 model = pd.read_csv("model.csv", sep='\s+', index_col=0)[["mean", "sd"]]
@@ -33,8 +34,9 @@ ax.plot(d, unumpy.nominal_values(T), "b-", linewidth=0.5)
 ax.plot(d, unumpy.nominal_values(T) + 2 * unumpy.std_devs(T), "b--", linewidth=0.5)
 ax.plot(d, unumpy.nominal_values(T) - 2 * unumpy.std_devs(T), "b--", linewidth=0.5)
 
-ax.tick_params(axis='both', which='minor', bottom=False)
-ax.grid(True, which='minor', axis='both')
+ax.xaxis.set_minor_locator(MultipleLocator(1))
+ax.yaxis.set_minor_locator(MultipleLocator(1))
+ax.grid(True, which='both')
 
 ax.set_xlabel("$\delta^{18}O_c - \delta^{18}O_w$")
 ax.set_ylabel("$T (^oC)$, 95% confidence interval")
