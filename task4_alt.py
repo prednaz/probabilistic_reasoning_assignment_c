@@ -11,9 +11,7 @@ def predict(row):
     row = row[1]
     species = to_identifier_suffix(row["species"])
     
-    a_avg = model.loc[f"a{species}", "mean"]
-    a_std = model.loc[f"a{species}", "sd"]
-    a = ufloat(a_avg, a_std)
+    a = ufloat(model.loc[f"a{species}", "mean"], model.loc[f"a{species}", "sd"])
 
     b_avg = model.loc[f"b{species}", "mean"]
     b_std = model.loc[f"b{species}", "sd"]
