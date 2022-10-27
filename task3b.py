@@ -70,10 +70,6 @@ model {{
     sigma_b ~ normal(0, 2);
 {"".join(map(model_stan, data))}}}
 """,
-# sigma_x standard deviations were chosen as
-# np.concatenate((fit["a_cibicides_pachyderma"],fit["a_cibicidoides_wuellerstorfi"],fit["a_globorotalia_menardii"],fit["a_hoeglundina_elegans"],fit["a_neogloboquadrina_dutertrei"],fit["a_orbulina_universa"],fit["a_planulina_ariminensis"],fit["a_planulina_foveolata"],fit["a_uvigerina_curticosta"],fit["a_uvigerina_flintii"],fit["a_uvigerina_peregrina"]), axis=None).std(ddof=1)
-# and
-# np.concatenate((fit["b_cibicides_pachyderma"],fit["b_cibicidoides_wuellerstorfi"],fit["b_globorotalia_menardii"],fit["b_hoeglundina_elegans"],fit["b_neogloboquadrina_dutertrei"],fit["b_orbulina_universa"],fit["b_planulina_ariminensis"],fit["b_planulina_foveolata"],fit["b_uvigerina_curticosta"],fit["b_uvigerina_flintii"],fit["b_uvigerina_peregrina"]), axis=None).std(ddof=1)
     data=data_current,
     random_seed=1,
 )
