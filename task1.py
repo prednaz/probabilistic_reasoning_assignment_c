@@ -6,7 +6,7 @@ import stan
 data = pd.read_csv("merged_data.csv")[["temperature", "d18_O_w", "d18_O"]]
 
 posterior = stan.build(
-"""
+"""\
 data {
     int<lower=0> N;
     vector[N] temperature;
