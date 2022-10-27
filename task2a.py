@@ -34,4 +34,9 @@ ts_real = data["temperature"]
 for ts_sample in ts_samples.T:
     plt.scatter(ts_real, ts_sample)
 
-plt.show()
+plt.plot(ts_real, ts_real, "r-")
+
+plt.xlabel("$T_\mathrm{true}$")
+plt.ylabel("$T_\mathrm{predict}$")
+
+plt.savefig("priorpredictive.png")
