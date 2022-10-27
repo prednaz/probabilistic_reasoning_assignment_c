@@ -65,7 +65,7 @@ transformed parameters {{
 model {{
     sigma ~ normal(0, 2);
     a ~ normal(24, 26);
-    b ~ normal(3, 13);
+    b ~ normal(-3.5, 13.5);
     sigma_a ~ normal(0, 4);
     sigma_b ~ normal(0, 2);
 {"".join(map(model_stan, data))}}}

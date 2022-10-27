@@ -16,7 +16,7 @@ data {
 }
 generated quantities {
     real a = normal_rng(24, 26);
-    real b = normal_rng(3, 13);
+    real b = normal_rng(-3.5, 13.5);
     real sigma = abs(normal_rng(0, 2));
     array[N] real temperature = normal_rng(a + b * (d18_O - d18_O_w), sigma);
 }

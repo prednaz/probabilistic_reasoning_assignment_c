@@ -21,7 +21,7 @@ parameters {
 model {
     temperature ~ normal(a + b * (d18_O - d18_O_w), sigma);
     a ~ normal(24, 26);
-    b ~ normal(3, 13);
+    b ~ normal(-3.5, 13.5);
     sigma ~ normal(0, 2);
 }
 """,

@@ -27,7 +27,7 @@ def model_stan(species_data):
     return f"""\
     temperature{species} ~ normal(a{species} + b{species} * (d18_O{species} - d18_O_w{species}), sigma);
     a{species} ~ normal(24, 26);
-    b{species} ~ normal(3, 13);
+    b{species} ~ normal(-3.5, 13.5);
 """
 
 def data_for_stan(species_data):
